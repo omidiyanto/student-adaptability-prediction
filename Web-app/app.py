@@ -98,4 +98,4 @@ def get_prediction(access_token, *input_values):
 
 
 
-#Made by O. Midiyanto
+#Made by O. Midiyanto in IBM Academy with Infinite Learning - 2023 
