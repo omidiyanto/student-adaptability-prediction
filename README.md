@@ -2,4 +2,4 @@
 
 ![Final Demo](https:/)
 
-![1](https://drive.google.com/uc?export=view&id=1uXmokGqnZxxsFk6rIlv8ZRBMHbNPdWvd)
+<iframe src="https://drive.google.com/file/d/1uXmokGqnZxxsFk6rIlv8ZRBMHbNPdWvd/preview" width="640" height="480"></iframe>
