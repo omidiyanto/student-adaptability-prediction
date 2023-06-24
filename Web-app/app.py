@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     prediction_data = False
-    
+
     if request.method == 'POST':
         print(request.form['gender'])
         print(request.form['age'])
@@ -46,7 +46,7 @@ def index():
             load_value, financial_value, internet_value, network_value, class_value,
             self_value, device_value
         )
-        
+
         prediction_data = prediction_value
     return render_template('index.html', prediction = prediction_data)
 
@@ -83,19 +83,16 @@ def get_prediction(access_token, *input_values):
     }
 
     resp = requests.post(url, headers=headers, json=data)
-    
+
     if resp.status_code == 200:
         predictions = resp.json()
         prediction_value = predictions['predictions'][0]['values'][0][0]
         output = json.loads(resp.text)
         print("output >>", output)
         return prediction_value
-    else:  
+    else:
         return None
-
-
 #Run below code if you host it locally
 #if __name__ == '__main__':
 #    app.run(debug=False,host='0.0.0.0')
-
-#omidiyanto
+#omidiyantoOOOOOMMMIIII
