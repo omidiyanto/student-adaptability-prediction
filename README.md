@@ -229,7 +229,7 @@ run the app.py code!
 ### 7.5 Run application from browser
 
 * Go to `127.0.0.1:5000` in your browser to view the application. Go ahead and fill in the form, and click on the `Predict`
-button to see your predicted charges based on your data.
+button to see your predicted Adaptability Level based on your data.
 
 ![FinalDemo](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/DEMO.gif?raw=true)
 
