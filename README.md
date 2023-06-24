@@ -2,4 +2,4 @@
 
 ![Final Demo](https:/)
 
-![1](https://github.com/omidiyanto/student-adaptability-prediction/raw/main/public/6.%20Evaluate%20the%20model.gif?raw=true) 
+![1](https://drive.google.com/file/d/1uXmokGqnZxxsFk6rIlv8ZRBMHbNPdWvd/view?usp=drive_link) 
