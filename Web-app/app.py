@@ -95,4 +95,7 @@ def get_prediction(access_token, *input_values):
 #Run below code if you host it locally
 #if __name__ == '__main__':
 #    app.run(debug=False,host='0.0.0.0')
-#omidiyantoOKE
+
+
+
+#Made by O. Midiyanto
