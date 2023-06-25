@@ -53,7 +53,7 @@ create account in link below
 # Steps
 0. [Download the data set ](#step-0-Download-the-data-set)
 1. [Clone the repo](#step-1-clone-the-repo)
-2. [Explore the data (optional)](#step-2-explore-the-data-optional)
+2. [Explore the data (recommended)](#step-2-explore-the-data-recommended)
 3. [Create IBM Cloud services and the AutoAI](#step-3-create-ibm-cloud-services-and-the-AutoAI)
 4. [Run AutoAI experiment](#step-4-run-autoai-experiment)
 5. [Create a deployment and test your model](#step-5-create-a-deployment-and-test-your-model)
