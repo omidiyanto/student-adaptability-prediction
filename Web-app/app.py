@@ -92,7 +92,8 @@ def get_prediction(access_token, *input_values):
         return prediction_value
     else:
         return None
-#Run below code if you host it locally
+    
+#Run code below if you want to host it locally
 #if __name__ == '__main__':
 #    app.run(debug=False,host='0.0.0.0')
 
