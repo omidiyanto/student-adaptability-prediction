@@ -1,4 +1,4 @@
-# Create an application to predict Students Adaptability Level in Online Education Prediction with AutoAI
+# Create an application to predict Students Adaptability Level in Online Education Prediction with Machine Learning
 
 ## Try the deployed App in : https://studentadaptabilitypredict.pythonanywhere.com/
 
@@ -72,14 +72,30 @@ Clone this repo onto your computer in the destination of your choice:
 ```
 git clone https://github.com/omidiyanto/student-adaptability-prediction.git
 ```
-## Step 2. Explore the data (optional)
+## Step 2. Explore the data (Recommended)
 
 #### If you want to run the notebook that include the Exploratory Data Analysis below, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb).
+
 * Within Watson Studio, you explore the data before you create any 
 machine learning models. You want to understand the data, and find any trends between 
 what you are trying to predict student <b>adaptivity level</b> and the data's features.
 
+* Once you import, you see the data into a data frame, and call the `df_.head()` function, you will see the first 5 rows of the data set also the 13 data features.
+![dfHEAD](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/dfHEAD.png?raw=true)
 
+* To check the data types, missing values, and statistics summary
+![dfSUM](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/dfSUM.png?raw=true)
+
+* How are the students adapting to the online learning system?
+![percentADAPT](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/percentageADAPT.png?raw=true)
+
+* What are the relationships between the independent variables measured and adaptivity level?
+![relationships](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/relationships.png?raw=true)
+
+* What is the top 5 factors that are the most important in predicting the adaptivity levels of the students?
+![top5](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/top5.png?raw=true)
+
+<b>If you want to see all of the Exploratory Data Analysis code, and run the notebook yourself, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb)</b>
 
 ## Step 3. Create IBM Cloud services and the AutoAI
 
