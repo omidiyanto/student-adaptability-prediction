@@ -21,7 +21,7 @@ Upon completing this code pattern, you will gain proficiency in the following:
 * Comparing the process of utilizing AutoAI with manual model building.
 * Visualizing the deployed model through a user-friendly front-end application.
 
-### Architecture ComponentsOMI
+### Architecture Components
 
 ![Architecture Components](https://media.github.ibm.com/user/21063/files/3b77e580-913c-11ea-9dea-425b1d4f4ee0)
 
