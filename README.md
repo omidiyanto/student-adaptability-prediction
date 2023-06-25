@@ -74,10 +74,12 @@ git clone https://github.com/omidiyanto/student-adaptability-prediction.git
 ```
 ## Step 2. Explore the data (optional)
 
-#### If you want to run the notebook that is explored below, go to [here](https://github/linkEDA).
+#### If you want to run the notebook that include the Exploratory Data Analysis below, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb).
 * Within Watson Studio, you explore the data before you create any 
 machine learning models. You want to understand the data, and find any trends between 
 what you are trying to predict student <b>adaptivity level</b> and the data's features.
+
+
 
 ## Step 3. Create IBM Cloud services and the AutoAI
 
