@@ -28,8 +28,8 @@ Upon completing this code pattern, you will gain proficiency in the following:
 ## Flow Description
 1. The user creates an IBM Watson Studio Service on IBM Cloud.
 2. The user creates an IBM Cloud Object Storage Service and adds that to Watson Studio.
-3. The user uploads the insurance premium data file into Watson Studio.
-4. The user creates an AutoAI Experiment to predict insurance premium on Watson Studio
+3. The user uploads the student adaptability level in online education data file into Watson Studio.
+4. The user creates an AutoAI Experiment to predict student adaptability level on Watson Studio
 5. AutoAI uses Watson Machine Learning to create several models, and the user deploys the best performing model.
 6. The user uses the Flask web-application to connect to the deployed model and predict the student adaptability level in online education.
 
