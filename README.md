@@ -93,7 +93,7 @@ what you are trying to predict student <b>adaptivity level</b> and the data's fe
 ![relationships](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/relationships.png?raw=true)
 
 * What is the top 5 factors that are the most important in predicting the adaptivity levels of the students?
-![top5](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/top5.png?raw=true)
+![top5](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/top55.png?raw=true)
 
 <b>If you want to see all of the Exploratory Data Analysis code, and run the notebook yourself, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb)</b>
 
