@@ -1,4 +1,4 @@
-# Create an application to predict Students Adaptability Level in Online Education Prediction with Machine Learning
+# Create an application to predict Students Adaptability Level in Online Education with Machine Learning
 
 ## Try the deployed App in : https://studentadaptabilitypredict.pythonanywhere.com/
 
