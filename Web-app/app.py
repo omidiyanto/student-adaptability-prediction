@@ -63,7 +63,7 @@ def get_access_token():
         return None
 
 def get_prediction(access_token, *input_values):
-    url = "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/43a95dc9-94b3-4752-813b-a2f770494c34/predictions?version=2021-05-01"
+    url = "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/f63bb262-3fac-4f95-8f4e-00f580b3c700/predictions?version=2021-05-01"
     headers = CaseInsensitiveDict()
     headers["Content-Type"] = "application/json"
     headers["Accept"] = "application/json"
