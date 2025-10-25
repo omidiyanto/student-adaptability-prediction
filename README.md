@@ -3,7 +3,7 @@
 ## Try the deployed App in : https://studentadaptabilitypredict.pythonanywhere.com/
 
 
-![FinalDemo](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/DEMO.gif?raw=true)
+![FinalDemo](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/DEMO.gif?raw=true)
 
 As illustrated above, this application leverages machine learning models to predict the adaptability level of students in online education, providing valuable insights for understanding the impact of various factors. By analyzing the effects of age, gender, location, and other relevant variables, we aim to determine the level of adaptability of students in the online learning environment. Through the utilization of AI and machine learning, this application enables students to gain immediate predictions regarding their adaptability level, helping them make informed decisions and adjustments to optimize their online education experience.
 
@@ -81,25 +81,25 @@ machine learning models. You want to understand the data, and find any trends be
 what you are trying to predict student <b>adaptivity level</b> and the data's features.
 
 * Once you import, you see the data into a data frame, and call the `df_.head()` function, you will see the first 5 rows of the data set also the 13 data features.
-![dfHEAD](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/dfHEAD.png?raw=true)
+![dfHEAD](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/dfHEAD.png?raw=true)
 
 * To check the data types, missing values, and statistics summary
-![dfSUM](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/dfSUM.png?raw=true)
+![dfSUM](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/dfSUM.png?raw=true)
 
 * How are the students adapting to the online learning system?
-![percentADAPT](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/percentageADAPT.png?raw=true)
+![percentADAPT](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/percentageADAPT.png?raw=true)
 
 * What are the relationships between the independent variables measured and adaptivity level?
-![relationships](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/relationships.png?raw=true)
+![relationships](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/relationships.png?raw=true)
 
 * What is the top 5 factors that are the most important in predicting the adaptivity levels of the students?
-![top5](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/top55.png?raw=true)
+![top5](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/top55.png?raw=true)
 
 <b>If you want to see all of the Exploratory Data Analysis code, and run the notebook yourself, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb)</b>
 
 ## Step 3. Create IBM Cloud services and the AutoAI
 
-![Creating-Watson-Service](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/1.-create-IBM-Services.gif?raw=true)
+![Creating-Watson-Service](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/1.-create-IBM-Services.gif?raw=true)
 
 1.	Login to your IBM Cloud account: https://cloud.ibm.com 
 
@@ -107,7 +107,7 @@ what you are trying to predict student <b>adaptivity level</b> and the data's fe
 
 3.	 Once all the services instance is ready, redirect to the Watson Studio page. Click on the “Launch in IBM Cloud Pak for Data” button to launch Watson Studio in a new tab.
 
-![Creating-empty-project](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/2.-Open-Watson-studio_-create-new-project_-integrate-with-Wa.gif?raw=true)
+![Creating-empty-project](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/2.-Open-Watson-studio_-create-new-project_-integrate-with-Wa.gif?raw=true)
 
 4.  Create new project that says, “New Project”. Next, click on “Create an empty project”.
 
@@ -115,7 +115,7 @@ what you are trying to predict student <b>adaptivity level</b> and the data's fe
 
 6. Go to Manage Tab, in the Service & Integrations option, associate the <b>Watson Machine Learning</b> service.
 
-![Add-dataset and AutoAI](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/3.-Import-data-and-AutoAI.gif?raw=true)
+![Add-dataset and AutoAI](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/3.-Import-data-and-AutoAI.gif?raw=true)
 
 7.  Upload the `students_adaptability_level_online_education.csv` dataset that you have downloaded it previously. Watson Studio takes a couple of seconds to load the data, and then you should see the import has completed. To make sure it has worked properly, you can click on “Assets” on the top of the page, and you should see your insurance file under “Data Assets”.
 
@@ -125,7 +125,7 @@ what you are trying to predict student <b>adaptivity level</b> and the data's fe
 
 ## Step 4. Run AutoAI experiment
 
-![Run-AutoAI-project](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/4.-Customize-experiment-settings-on-AutoAI.gif?raw=true)
+![Run-AutoAI-project](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/4.-Customize-experiment-settings-on-AutoAI.gif?raw=true)
 
 1.  On the New AutoAI Experiment page, give a name to your AutoAI project.
 
@@ -141,23 +141,23 @@ what you are trying to predict student <b>adaptivity level</b> and the data's fe
 
 7.  Once you are happy with your settings, ensure you are predicting for the <b>Adaptivity Level</b> column, and click on the run 'Run Experiment' button on the bottom-right corner of the screen.
 
-![running](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/5.-Run-Experiment-AutoAI.gif?raw=true)
+![running](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/5.-Run-Experiment-AutoAI.gif?raw=true)
 
 8.  Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
 
-![complete](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/AutoAI%20Complete.png?raw=true)
+![complete](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/AutoAI%20Complete.png?raw=true)
 
-![pipeline](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/AutoAI%20Pipeline.png?raw=true)
+![pipeline](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/AutoAI%20Pipeline.png?raw=true)
 
 9.  You have different pipelines that are created, and you see the rankings of each model. Each model is ranked based on the metric that you selected. Once the experiment is done, you see Experiment completed under the Progress map on the right-hand side of the screen. As you can see, the best pipeline for this model is the Pipeline 16 with Snap Decision Tree Classifier algortihm with great accuracy of 0.884
 
-![evaluateModel](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/6.-Evaluate-the-model.gif?raw=true)
+![evaluateModel](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/6.-Evaluate-the-model.gif?raw=true)
 
 10. On the left-hand side, you can see different “Model Evaluation Measures”, “Feature Transformations”, and “Feature Importance”.
 
 ## Step 5. Create a deployment and test your model
 
-![deployment-space](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/7.-Create-a-deployment.gif?raw=true)
+![deployment-space](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/7.-Create-a-deployment.gif?raw=true)
 
 1.	Once you are ready to deploy one of the models, click on “Save As” at the top-right corner of the model you want to deploy. Save it as a “Model” and name your model as you want. Click on “Create” 
 Note: We show you how to save it as a notebook in step 6.
@@ -182,7 +182,7 @@ Note: We show you how to save it as a notebook in step 6.
 
 11.	On this page you find the API references, endpoint and code snippets to help you integrate your model with your applications.
 
-![testDEPLOY](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/8.-Try-validatetest-the-model-deployed.gif?raw=true)
+![testDEPLOY](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/8.-Try-validatetest-the-model-deployed.gif?raw=true)
 
 12. To test your model, click on the “Test” tab. You can select a row from the data set and enter the data in the fields then click on the “Predict” button at the bottom. 
 
@@ -190,7 +190,7 @@ Note: We show you how to save it as a notebook in step 6.
 
 ## Step 6. Create a notebook from your model (optional)
 
-![create notebook](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/9.-Create-Notebooks.gif?raw=true)
+![create notebook](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/9.-Create-Notebooks.gif?raw=true)
 
 With AutoAI's latest features, the code that is run to create these models is no more a black box. One or more of these models can be saved as a Jupyter notebook and the Python code can be run and enhanced from within. 
 
@@ -207,7 +207,7 @@ you need to replace the API key & Endpoint URL information within `web-app/app.p
 
 ### 7.1 Get IBM Cloud API key
 
-![generateAPIKEY](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/10.-Get-IBM-Cloud-API-key.gif?raw=true)
+![generateAPIKEY](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/10.-Get-IBM-Cloud-API-key.gif?raw=true)
 
 * Generate an IBM Cloud apikey by going to `cloud.ibm.com` and then from the top-right part of the screen click on `Manage`-> `IAM`.
 
@@ -215,12 +215,12 @@ you need to replace the API key & Endpoint URL information within `web-app/app.p
 
 * Name the key as you wish, and then click `Create`. Once the key is created, click on the `Download` button. in that file you can see your API_KEY
 
-![apiKEY](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/API%20key_downloaded.png?raw=true)
+![apiKEY](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/API%20key_downloaded.png?raw=true)
 
 
 ### 7.2 Get Endpoint URL
 
-![getURL](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/endpointURL.png?raw=true)
+![getURL](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/endpointURL.png?raw=true)
 
 * Inside Watson Studio (Or Cloud Pak for Data)`Deployment Spaces`, there is the Endpoint URL, you can click the Copy button to easily copy the URL.
 
@@ -228,7 +228,7 @@ you need to replace the API key & Endpoint URL information within `web-app/app.p
 
 * After you get your own API key & Endpoint URL for your deployement model, change the app.py code with your own just like the below picture shown:
 
-![modAPPPY](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/codeChange.png?raw=true)
+![modAPPPY](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/codeChange.png?raw=true)
 
 
 ### 7.4 Install dependencies, and run the app
@@ -249,5 +249,5 @@ run the app.py code!
 * Go to `127.0.0.1:5000` in your browser to view the application. Go ahead and fill in the form, and click on the `Predict`
 button to see your predicted Adaptability Level based on your data.
 
-![FinalDemo](https://https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/DEMO.gif?raw=true)
+![FinalDemo](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/.github/gif/DEMO.gif?raw=true)
 
